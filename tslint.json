@@ -1,0 +1,38 @@
+{
+	"extends": "tslint:recommended",
+	"rules": {
+		"indent": [
+			true,
+			"tabs"
+		],
+		"no-reference": false,
+		"max-classes-per-file": [
+			false
+		],
+		"only-arrow-functions": [
+			false
+		],
+		"variable-name": [
+			true,
+			"ban-keywords",
+			"check-format",
+			"allow-leading-underscore"
+		],
+		"forin": false,
+		"whitespace": [
+			true,
+			"check-branch",
+			"check-decl",
+			"check-module",
+			"check-operator",
+			"check-separator",
+			"check-type"
+		]
+	},
+	"jsRules": {
+		"indent": [
+			true,
+			"tabs"
+		]
+	}
+}
