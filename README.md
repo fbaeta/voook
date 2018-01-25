@@ -9,7 +9,7 @@
 + Webpack
 + Local Storage Mock
 
-## Environnement Setup
+## Environment Setup
 
 Install Node.js https://nodejs.org/en/download/
 
