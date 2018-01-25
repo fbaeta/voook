@@ -1,13 +1,5 @@
 <template>
 <v-card>
-  <v-toolbar color="white" flat>
-    <v-btn icon light
-      @click.stop="back">
-      <v-icon>arrow_back</v-icon>
-    </v-btn>
-    <v-spacer></v-spacer>
-    <v-btn color="primary" flat @click.stop="save">Save</v-btn>
-  </v-toolbar>
   <v-form>
     <v-container grid-list-xl fluid>
       <v-text-field
@@ -69,6 +61,11 @@
       </v-layout>
     </v-container>
   </v-form>
+  <v-card-actions>
+    <v-spacer></v-spacer>
+    <v-btn color="primary" flat @click.stop="save">Save</v-btn>
+    <v-btn color="primary" flat @click.stop="back">Cancel</v-btn>
+  </v-card-actions>
 </v-card>
 </template>
 <script lang="ts">
