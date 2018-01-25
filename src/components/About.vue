@@ -18,6 +18,14 @@
   </v-card-text>
   <v-card-text>
     <div>
+      <h3>Source Code</h3>
+      <ul class="ml-5">
+        <li><a href="https://github.com/fbaeta/voook" target="_blank">https://github.com/fbaeta/voook</a></li>
+      </ul>
+    </div>
+  </v-card-text>
+  <v-card-text>
+    <div>
       <h3>To improve</h3>
       <ul class="ml-5">
         <li>Add unit tests</li>
