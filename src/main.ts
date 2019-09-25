@@ -3,7 +3,7 @@
 import "es6-promise/auto";
 
 import Vue from "vue";
-import Vuertify from "vuetify";
+import Vuetify from "vuetify";
 import Vuex from "vuex";
 
 import App from "@/components/App.vue";
@@ -11,7 +11,7 @@ import router from "./router";
 import { createStore } from "./store";
 
 Vue.config.productionTip = false;
-Vue.use(Vuertify);
+Vue.use(Vuetify);
 Vue.use(Vuex);
 
 const store = createStore();
